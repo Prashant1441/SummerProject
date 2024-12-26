@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.about-section h2 {
+    margin-top: 0;
+}
+
+.about-section p {
+    margin-bottom: 20px;
+}
+
+.about-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-section ul li:before {
+    content: "\2022";
+    color: #ffcc00;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}

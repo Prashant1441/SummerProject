@@ -1,0 +1,23 @@
+
+*{
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+body{
+    
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position:center ;
+    background-attachment:fixed ;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: corner;
+    min-width: 90vh;
+    
+}
